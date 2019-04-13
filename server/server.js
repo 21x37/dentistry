@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 const contactRouter = require('./router/contact');
+const scheduleRouter = require('./router/schedule');
 
 const app = express();
 const publicPath = path.join(__dirname, '..', 'public');
@@ -11,6 +12,7 @@ app.use(express.static(publicPath));
 app.use(bodyParser.json({limit: "50mb"}));
 app.use(bodyParser.urlencoded({limit: "50mb", extended: true, parameterLimit:50000}));
 app.use(contactRouter);
+app.use(scheduleRouter);
 
 app.get('*', (req, res) => {
     console.log(req.url);
