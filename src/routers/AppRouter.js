@@ -4,6 +4,7 @@ import { Router, Route, Switch } from 'react-router-dom';
 import Index from '../components/Index';
 import Contact from '../components/contact/Contact';
 import About from '../components/about/About';
+import Appointment from '../components/appointment/Appointment';
 
 
 const history = createHistory();
@@ -15,6 +16,7 @@ const AppRouter = () => (
                 <Route path='/' component={Index} exact={true}/>
                 <Route path='/contact' component={Contact} exact={true}/>
                 <Route path='/about' component={About} exact={true}/>
+                <Route path='/appointment' component={Appointment} exact={true}/>
            </Switch> 
         </div>
     </Router>
