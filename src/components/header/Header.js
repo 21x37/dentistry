@@ -7,9 +7,13 @@ const Header = () => {
             <h1>Lorem Ipsum</h1>
             <ul>
                 <Link to='/'><li>Home</li></Link>
+                <Link to='/about'><li>Our Practice</li></Link>
+                <Link to='/dental-care'><li>Dental Care</li></Link>
+                <Link to='/new-patient-experience'><li>New Patient Experience</li></Link>
+                <Link to='/patient-resources'><li>Patient Resources</li></Link>
+                <Link to='/testimonials'><li>Testimonials</li></Link>
+                <Link to='/gallery'><li>Gallery</li></Link>
                 <Link to='/contact'><li>Contact</li></Link>
-                <Link to='/appointment'><li>Appointment</li></Link>
-                <Link to='#'><li>Link 3</li></Link>
             </ul>
         </div>
     )
