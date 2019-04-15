@@ -9,9 +9,9 @@ class HomePage extends React.Component {
         return (
             <div>
                 <p>Home Page</p>
-                <Link to='/about'><button>Meet the doctor</button></Link>
+                <Link to='/about'><button>Meet the Team</button></Link>
                 <Link to='/testimonials'><button>Read Testimonials</button></Link>
-                <Link to='/appointment'><button>Request a appointment</button></Link>
+                <Link to='/contact'><button>Request a appointment</button></Link>
             </div>
         );
     };
