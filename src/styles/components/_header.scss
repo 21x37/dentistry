@@ -1,0 +1,41 @@
+.header-nav {
+    display: inline-block; 
+}
+
+.header-container {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) );
+    margin-top: -22px;
+    padding-top: 20px;
+}
+
+.header-title {
+    color: rgb(223, 223, 223);
+    font-family: 'Questrial', Helvetica, Arial;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    margin-top: 22px;
+}
+
+.nav__flex {
+    display: flex;
+    justify-content: center;
+    width: 100vw;   
+}
+
+.nav-item {
+    font-family: 'Montserrat', Helvetica, Arial;
+    font-size: 130%;    
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.logo-wrapper {
+    position: relative;
+}
+
+.logo {
+    right: 180px;
+    margin-top: -95px;
+    position: absolute;
+    width: 80px;
+}

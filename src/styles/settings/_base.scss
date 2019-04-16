@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container {
+    min-height: 100%;
+}   
+
+.content {
+    padding-bottom: 45px;
+}
+
+#app {
+    min-height: 100%;
+}
+
+.body {
+    min-height: 100vh;
+    height: 100%;
+}

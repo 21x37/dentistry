@@ -16,7 +16,7 @@ const history = createHistory();
 
 const AppRouter = () => (
     <Router history={history}>
-        <div>
+        <div className='container'>
            <Switch>
                 <Route path='/' component={Index} exact={true}/>
                 <Route path='/contact' component={Contact} exact={true}/>

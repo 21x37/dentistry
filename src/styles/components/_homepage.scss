@@ -1,0 +1,17 @@
+.homepage-container {
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('https://www.johnsonranchdental.com/wp-content/themes/custom5/slideshow/1.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+.homepage-button-container {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.homepage-title {
+    color: $dark-blue;
+    font-family: 'Montserrat', Helvetica, Arial;
+    font-size: 300%;
+    margin-top: 20vh;
+}

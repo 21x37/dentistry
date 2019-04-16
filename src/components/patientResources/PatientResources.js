@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../header/Header';
+import Footer from '../footer/Footer';
 
 const PatientResources = () => {
     return (
@@ -16,6 +17,7 @@ const PatientResources = () => {
             <a href='#'>Office Policies</a>
             <h3>Infection Control</h3>
             <p>Tincidunt dui ut ornare lectus sit. Mattis rhoncus urna neque viverra justo nec ultrices. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Neque vitae tempus quam pellentesque nec nam. Quis viverra nibh cras pulvinar mattis nunc sed blandit.</p>
+            <Footer/>
         </div>
     );
 };

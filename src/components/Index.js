@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './header/Header';
 import HomePage from './homePage/HomePage';
+import Footer from './footer/Footer';
 
 
 
@@ -9,10 +10,12 @@ import HomePage from './homePage/HomePage';
 
 const Index = () => {
     return (
-        <div className='homepage'>
+        <div className='homepage-container'>
             <Header />
-            <HomePage />
-            <p>Rendered</p>
+            <div className='body'>
+                <HomePage />
+            </div>
+            <Footer/>
         </div>
     )
 }

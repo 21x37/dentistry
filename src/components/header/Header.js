@@ -4,17 +4,24 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     return (
         <div>
-            <h1>Lorem Ipsum</h1>
-            <ul>
-                <Link to='/'><li>Home</li></Link>
-                <Link to='/about'><li>Our Practice</li></Link>
-                <Link to='/dental-care'><li>Dental Care</li></Link>
-                <Link to='/new-patient-experience'><li>New Patient Experience</li></Link>
-                <Link to='/patient-resources'><li>Patient Resources</li></Link>
-                <Link to='/testimonials'><li>Testimonials</li></Link>
-                <Link to='/gallery'><li>Gallery</li></Link>
-                <Link to='/contact'><li>Contact</li></Link>
-            </ul>
+            <div className='header-container'>
+                <h1 className='header-title'>Dentistry</h1>
+                <div className='nav__flex'>
+                    <ul className='header-nav'>
+                        <Link style={{color: '#FFF'}} to='/'><li className='nav-item'>Home</li></Link>
+                        <Link style={{color: '#FFF'}} to='/about'><li className='nav-item'>Our Practice</li></Link>
+                        <Link style={{color: '#FFF'}} to='/dental-care'><li className='nav-item'>Dental Care</li></Link>
+                        <Link style={{color: '#FFF'}} to='/new-patient-experience'><li className='nav-item'>New Patient Experience</li></Link>
+                        <Link style={{color: '#FFF'}} to='/patient-resources'><li className='nav-item'>Patient Resources</li></Link>
+                        <Link style={{color: '#FFF'}} to='/testimonials'><li className='nav-item'>Testimonials</li></Link>
+                        <Link style={{color: '#FFF'}} to='/gallery'><li className='nav-item'>Gallery</li></Link>
+                        <Link style={{color: '#FFF'}} to='/contact'><li className='nav-item'>Contact</li></Link>
+                    </ul>
+                </div>
+                <div className='logo-wrapper'>
+                    <img className='logo' src='https://1d0pji2jaz4gvd3kl223o6t1-wpengine.netdna-ssl.com/wp-content/uploads/2015/12/cropped-wise-dental-logo.png'/>
+                </div>
+            </div>
         </div>
     )
 }

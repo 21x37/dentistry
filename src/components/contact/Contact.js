@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../header/Header';
+import Footer from '../footer/Footer';
 
 class Contact extends React.Component {
     constructor(props) {
@@ -26,6 +27,7 @@ class Contact extends React.Component {
                     <input onChange={this.onChange} placeholder='Email' name='email' type='text'/>
                     <textarea onChange={this.onChange} placeholder='Please type your message!' name='message'/>
                 </form>
+                <Footer/>
             </div>
         )
     }

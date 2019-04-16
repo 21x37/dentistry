@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../header/Header';
+import Footer from '../footer/Footer';
 
 const Testimonial = () => {
     return (
@@ -29,6 +30,7 @@ const Testimonial = () => {
                 <div>* * * * *</div>
                 <p>Neque sodales ut etiam sit amet nisl purus in. Montes nascetur ridiculus mus mauris. Magna sit amet purus gravida quis blandit turpis cursus in. </p>
             </div>
+            <Footer/>
         </div>
     );
 };
