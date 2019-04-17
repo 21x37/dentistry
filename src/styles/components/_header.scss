@@ -9,7 +9,7 @@
 }
 
 .header-title {
-    color: rgb(223, 223, 223);
+    color: $dark-blue;
     font-family: 'Questrial', Helvetica, Arial;
     margin-bottom: 10px;
     margin-left: 250px;
@@ -35,7 +35,7 @@
 
 .logo {
     right: 180px;
-    margin-top: -95px;
+    margin-top: -108px;
     position: absolute;
-    width: 80px;
+    width: 50px;
 }
