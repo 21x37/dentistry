@@ -1,0 +1,35 @@
+.filled-star {
+    color: $dark-blue;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.testimonial-container {
+    text-align: center; 
+}
+
+.testimonial-p {
+    font-family: 'Montserrat', Helvetica, Arial;
+    line-height: 160%;
+    margin: 0 auto;
+    text-align: center; 
+
+}
+
+.individual-testimonial-container {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 50px;
+    width: 400px;
+    display: inline-block;
+}
+
+.rating-container {
+    text-align: center;
+}
+
+.testimonial-quotation {
+    color: $dark-blue;
+    font-size: 210%;
+}

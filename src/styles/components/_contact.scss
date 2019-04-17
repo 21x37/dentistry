@@ -1,0 +1,44 @@
+.contact-form {
+    display: block;
+    text-align: center;
+}
+
+.contact-input {
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 400px;
+    padding: 10px 20px;
+}
+
+.contact-input:focus {
+    border: 2px solid $dark-blue;
+}
+
+.contact-title {
+    color: $dark-blue;
+    font-family: 'Montserrat', Helvetica, Arial;
+    margin-left: 200px;
+}
+
+.contact-textarea {
+    border: none;
+    border-radius: 4px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 440px;
+}
+
+.contact-textarea:focus {
+    border: 2px solid $dark-blue;
+}
+
+.contact-container {
+    background: rgb(240, 240, 240);
+    height: 100vh;
+    margin-top: -10px;
+    padding: 10px; 
+}

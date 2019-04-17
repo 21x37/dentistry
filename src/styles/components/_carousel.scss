@@ -1,0 +1,48 @@
+.carousel-container {
+    text-align: center;  
+}
+
+.carousel-image {
+    border-radius: 5px;
+    border: 4px solid rgb(240, 240, 240);
+    cursor: pointer;
+    width: 700px;
+    margin-bottom: -5px;
+    position: relative;
+    top: 100px;
+}
+
+
+.carousel-button {
+    border: none;
+    border-radius: 4px;
+    background: $dark-blue;
+    color: #FFF;
+    cursor: pointer;
+    margin-top: -10px;
+    width: 251px;
+}
+
+.carousel-button__left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.carousel-button__right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+// .carousel-div-button-wrapper {
+//     left: 225px;
+//     margin-top: -350px;
+//     position: relative;
+// }
+
+// .carousel-div-button-container {
+//     background: rgba(0, 0, 0, 0.219);
+//     height: 350px;
+//     width: 50px;
+
+//     position: absolute;
+// }

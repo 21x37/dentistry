@@ -3,13 +3,13 @@
 }
 
 .header-container {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) );
+    background: $opacity-blue;
     margin-top: -22px;
     padding-top: 20px;
 }
 
 .header-title {
-    color: $dark-blue;
+    color: #fff;
     font-family: 'Questrial', Helvetica, Arial;
     margin-bottom: 10px;
     margin-left: 250px;

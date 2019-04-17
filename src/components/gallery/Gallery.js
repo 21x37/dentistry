@@ -9,11 +9,12 @@ class Gallery extends React.Component {
     }
     render() {
         return (
-            <div className='content gallery-container'>
+            <div className='gallery-container'>
                 <Header/>
-            <div className='content'>
+            <div className='content-container'>
                 <Carousel/>
             </div>
+            
                 <Footer/>
             </div>
         );

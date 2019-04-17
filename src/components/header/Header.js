@@ -18,9 +18,7 @@ const Header = () => {
                         <Link style={{color: '#FFF'}} to='/contact'><li className='nav-item'>Contact</li></Link>
                     </ul>
                 </div>
-                <div className='logo-wrapper'>
-                    <img className='logo' src='https://1d0pji2jaz4gvd3kl223o6t1-wpengine.netdna-ssl.com/wp-content/uploads/2015/12/cropped-wise-dental-logo.png'/>
-                </div>
+
             </div>
         </div>
     )

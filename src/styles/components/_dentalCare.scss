@@ -7,4 +7,11 @@
 .dental-care-list-item {
     list-style: none;
     margin-top: 15px;
+    text-decoration: none;
+}
+
+.dental-care-list-item__link {
+    color: $dark-blue;
+    font-family: 'Questrial', Helvetica, Arial;
+    text-decoration: none;
 }

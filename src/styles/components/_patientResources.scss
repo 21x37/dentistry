@@ -14,3 +14,14 @@
     font-size: 120%;
     line-height: 185%;
 }
+
+.pr-list {
+    list-style: none;
+}
+
+.pr-list a, .pr-list li {
+    color: $dark-blue;
+    font-family: 'Questrial', Helvetica, Arial;
+    margin-top: 10px;
+    text-decoration: none;
+}
