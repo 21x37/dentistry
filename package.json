@@ -26,7 +26,7 @@
     "raf": "^3.3.2",
     "react-test-renderer": "^16.0.0",
     "redux-mock-store": "^1.2.3",
-    "webpack-dev-server": "^2.5.1"
+    "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",
